@@ -6,6 +6,7 @@
     <string name="style_name">Styles and Themes</string>
     <string name="responsive_layout_name">Responsive Layouts</string>
     <string name="touch_selectors_name">Touch Selectors</string>
+    <string name="smallcaps_16">Smallcaps 16sp</string>
 
     <!-- Strings for use in the colors and fonts activity -->
     <string name="light_56">Light 56sp</string>
