@@ -16,6 +16,9 @@ package com.example.android.boardingpass.utilities;
 * limitations under the License.
 */
 
+import android.annotation.TargetApi;
+import android.os.Build;
+
 import com.example.android.boardingpass.BoardingPassInfo;
 import com.example.android.boardingpass.R;
 
@@ -64,10 +67,12 @@ public class FakeDataUtils {
         return bpi;
     }
 
+    @TargetApi(Build.VERSION_CODES.GINGERBREAD)
     private static long minutesToMillis(long minutes) {
         return TimeUnit.MINUTES.toMillis(minutes);
     }
 
+    @TargetApi(Build.VERSION_CODES.GINGERBREAD)
     private static long hoursToMillis(long hours) {
         return TimeUnit.HOURS.toMillis(hours);
     }
